@@ -1,0 +1,57 @@
+runfile('D:/Programs/Python/ObjectTrackerByExtraction/004_object_detection_training.py', wdir='D:/Programs/Python/ObjectTrackerByExtraction')
+BEGIN: Loading file D:/Programs/Python/ObjectTrackerByExtraction/Resources/SavedObjects/object_detection_data_preprocessed_2023-09-08_23-11-14.pkl
+END: Loading file D:/Programs/Python/ObjectTrackerByExtraction/Resources/SavedObjects/object_detection_data_preprocessed_2023-09-08_23-11-14.pkl
+Using device:  cuda
+Calling DataLoader
+Starting epoch number 0
+d:\programs\python\objecttrackerbyextraction\004_object_detection_training.py:77: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  color_tensor = torch.tensor(color_tensor, dtype=torch.float32)
+Epoch 1/10, loss_classifier: 0.0035612601786851883, Time: 313.72 seconds
+Epoch 1/10, loss_box_reg: 0.0
+Epoch 1/10, loss_objectness: 8.155222167260945e-05
+Epoch 1/10, loss_rpn_box_reg: 0.0
+Starting epoch number 1
+Epoch 2/10, loss_classifier: 0.02016274817287922, Time: 218.82 seconds
+Epoch 2/10, loss_box_reg: 0.030009815469384193
+Epoch 2/10, loss_objectness: 0.00015142890333663672
+Epoch 2/10, loss_rpn_box_reg: 0.0002639888843987137
+Starting epoch number 2
+Epoch 3/10, loss_classifier: 0.023198191076517105, Time: 228.79 seconds
+Epoch 3/10, loss_box_reg: 0.04961320012807846
+Epoch 3/10, loss_objectness: 0.0034024554770439863
+Epoch 3/10, loss_rpn_box_reg: 0.0016872442793101072
+Starting epoch number 3
+Epoch 4/10, loss_classifier: 6.244582436920609e-06, Time: 243.11 seconds
+Epoch 4/10, loss_box_reg: 0.0
+Epoch 4/10, loss_objectness: 2.6455010811332613e-05
+Epoch 4/10, loss_rpn_box_reg: 0.0
+Starting epoch number 4
+Epoch 5/10, loss_classifier: 0.00025054943398572505, Time: 243.75 seconds
+Epoch 5/10, loss_box_reg: 0.0
+Epoch 5/10, loss_objectness: 4.6015729822102e-06
+Epoch 5/10, loss_rpn_box_reg: 0.0
+Starting epoch number 5
+Epoch 6/10, loss_classifier: 0.06498310714960098, Time: 225.07 seconds
+Epoch 6/10, loss_box_reg: 0.10773392021656036
+Epoch 6/10, loss_objectness: 0.0008837166242301464
+Epoch 6/10, loss_rpn_box_reg: 0.0021544205956161022
+Starting epoch number 6
+Epoch 7/10, loss_classifier: 0.00026440335204824805, Time: 221.02 seconds
+Epoch 7/10, loss_box_reg: 0.0
+Epoch 7/10, loss_objectness: 0.00016754906391724944
+Epoch 7/10, loss_rpn_box_reg: 0.0
+Starting epoch number 7
+Epoch 8/10, loss_classifier: 0.00010863409261219203, Time: 216.80 seconds
+Epoch 8/10, loss_box_reg: 0.0
+Epoch 8/10, loss_objectness: 3.6313174405222526e-06
+Epoch 8/10, loss_rpn_box_reg: 0.0
+Starting epoch number 8
+Epoch 9/10, loss_classifier: 0.023487327620387077, Time: 211.60 seconds
+Epoch 9/10, loss_box_reg: 0.05706904083490372
+Epoch 9/10, loss_objectness: 0.01027474645525217
+Epoch 9/10, loss_rpn_box_reg: 0.0008407197310589254
+Starting epoch number 9
+Epoch 10/10, loss_classifier: 5.946026703895768e-06, Time: 260.92 seconds
+Epoch 10/10, loss_box_reg: 0.0
+Epoch 10/10, loss_objectness: 1.9177739886799827e-05
+Epoch 10/10, loss_rpn_box_reg: 0.0

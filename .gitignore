@@ -1,0 +1,11 @@
+*.pth
+*.pkl
+*.json
+# Ignore video files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.flv
+*.wmv
+*.webm
